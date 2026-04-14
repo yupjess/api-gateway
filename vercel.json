@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/transport/:path*",
+      "destination": "https://ph-transport-api.vercel.app/api/:path*"
+    },
+    {
+      "source": "/api/directory/:path*",
+      "destination": "https://adventist-scraper-api.vercel.app/api/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://your-docs-site.vercel.app"
+    }
+  ]
+}
