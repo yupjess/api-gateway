@@ -10,7 +10,7 @@
     },
     {
       "source": "/",
-      "destination": "https://your-docs-site.vercel.app"
+      "destination": "https://transport-directory-web.vercel.app"
     }
   ]
 }
